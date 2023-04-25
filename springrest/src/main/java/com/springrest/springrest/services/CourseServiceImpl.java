@@ -1,32 +1,32 @@
 package com.springrest.springrest.services;
 
 import java.util.List;
-import java.util.stream.Collectors;
+//import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
+//import java.util.ArrayList;
 
 import com.springrest.springrest.dao.CourseDao;
 import com.springrest.springrest.entity.Course;
 
-
+//Service Layer that deals with managing courses.
 @Service
 public class CourseServiceImpl implements CourseService{
 	
 	@Autowired
-	private CourseDao courseDao;
+	private CourseDao courseDao;//This object provides the interface to the data layer to perform operations on the Course entity.
 
 //	List<Course> list;
 	
-	public CourseServiceImpl() {
-		
-//		list = new ArrayList<>();
-//		list.add(new Course(145,"Java","Java core"));
-//		list.add(new Course(146,"spring boot","about spring boot"));
+//	public CourseServiceImpl() {
 //		
-	}
+////		list = new ArrayList<>();
+////		list.add(new Course(145,"Java","Java core"));
+////		list.add(new Course(146,"spring boot","about spring boot"));
+////		
+//	}
 	
 	
 	@Override
